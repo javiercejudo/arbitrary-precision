@@ -1,6 +1,6 @@
 {
   "name": "arbitrary-precision",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arbitrary precision",
   "main": "src/arbitrary-precision.js",
   "scripts": {
