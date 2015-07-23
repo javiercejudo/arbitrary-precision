@@ -21,7 +21,7 @@ and others via adapters.
 - [[adapter]](https://github.com/javiercejudo/decimaljs-adapter) [[lib]](https://github.com/MikeMcl/decimal.js) decimal.js
 - [[adapter]](https://github.com/javiercejudo/floating-adapter) [[lib]](https://github.com/javiercejudo/floating) floating
 
-See [up to date list](https://www.npmjs.com/browse/keyword/linear-arbitrary-precision-adapter).
+See [up to date list](https://www.npmjs.com/browse/keyword/arbitrary-precision-adapter).
 
 ## Usage
 
