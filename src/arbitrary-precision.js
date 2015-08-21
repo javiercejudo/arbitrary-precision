@@ -3,12 +3,15 @@
 'use strict';
 
 var linearArbitraryPrecision = require('linear-arbitrary-precision');
-var powExtender = require('pow-arbitrary-precision');
+
+var extensions = [
+  require('pow-arbitrary-precision')
+];
 
 module.exports = function factory(adapter) {
-  var Decimal = linearArbitraryPrecision(adapter);
-
-  powExtender(Decimal);
-
-  return Decimal;
+  return extensions.reduce(extend, linearArbitraryPrecision(adapter));
 };
+
+function extend(Decimal, extender) {
+  return extender(Decimal);
+}
