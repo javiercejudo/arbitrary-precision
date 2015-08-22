@@ -5,7 +5,8 @@
 var linearArbitraryPrecision = require('linear-arbitrary-precision');
 
 var extensions = [
-  require('pow-arbitrary-precision')
+  require('pow-arbitrary-precision'),
+  require('equals-arbitrary-precision')
 ];
 
 module.exports = function factory(adapter) {
