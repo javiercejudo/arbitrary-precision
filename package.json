@@ -30,7 +30,7 @@
     "should": "5.2.0"
   },
   "dependencies": {
-    "equals-arbitrary-precision": "1.0.0",
+    "equals-arbitrary-precision": "1.0.1",
     "floating-adapter": "1.2.0",
     "linear-arbitrary-precision": "3.1.0",
     "pow-arbitrary-precision": "2.0.1"
