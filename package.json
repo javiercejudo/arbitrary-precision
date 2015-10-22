@@ -22,7 +22,7 @@
   "homepage": "https://github.com/javiercejudo/arbitrary-precision#readme",
   "devDependencies": {
     "gulp": "3.9.0",
-    "gulp-coverage": "0.3.36",
+    "gulp-coverage": "0.3.37",
     "gulp-coveralls": "0.1.4",
     "gulp-istanbul": "0.10.2",
     "gulp-mocha": "2.1.3",
