@@ -33,6 +33,6 @@
     "equals-arbitrary-precision": "1.0.1",
     "floating-adapter": "1.2.0",
     "linear-arbitrary-precision": "3.1.0",
-    "pow-arbitrary-precision": "2.0.1"
+    "pow-arbitrary-precision": "2.0.2"
   }
 }
