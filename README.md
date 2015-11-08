@@ -36,11 +36,8 @@ var Decimal = decimalFactory(adapter);
 
 ```js
 new Decimal('0.1').plus(new Decimal('0.2')).valueOf(); // => 0.1 + 0.3
-
 new Decimal('0.3').minus(new Decimal('0.1')).valueOf(); // => 0.3 - 0.1
-
 new Decimal('0.6').times(new Decimal('3')).valueOf(); // => 0.6 * 3
-
 new Decimal('0.3').div(new Decimal('0.2')).valueOf(); // => 0.3 / 0.2
 
 new Decimal('2').pow(new Decimal('3')).valueOf(); // => 8
