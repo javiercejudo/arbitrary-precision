@@ -3,12 +3,12 @@
 'use strict';
 
 var linearArbitraryPrecision = require('linear-arbitrary-precision');
-var tap = require('@javiercejudo/tap');
+var flow = require('lodash.flow');
 
-var extensions = [
+var extend = flow(
   require('pow-arbitrary-precision')
-];
+);
 
 module.exports = function factory(adapter) {
-  return extensions.reduce(tap, linearArbitraryPrecision(adapter));
+  return extend(linearArbitraryPrecision(adapter));
 };
