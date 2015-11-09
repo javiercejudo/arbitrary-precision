@@ -6,7 +6,8 @@ var linearArbitraryPrecision = require('linear-arbitrary-precision');
 var flow = require('lodash.flow');
 
 var extend = flow(
-  require('pow-arbitrary-precision')
+  require('pow-arbitrary-precision'),
+  require('sqrt-arbitrary-precision')
 );
 
 module.exports = function factory(adapter) {

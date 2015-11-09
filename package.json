@@ -33,6 +33,7 @@
     "floating-adapter": "^1.2.0",
     "linear-arbitrary-precision": "^3.2.0",
     "lodash.flow": "^3.2.1",
-    "pow-arbitrary-precision": "^2.0.2"
+    "pow-arbitrary-precision": "^2.0.2",
+    "sqrt-arbitrary-precision": "^1.0.0"
   }
 }

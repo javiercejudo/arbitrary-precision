@@ -15,10 +15,11 @@ describe('linear operations with floating', function() {
     ONE.minus.should.have.type('function');
     ONE.times.should.have.type('function');
     ONE.div.should.have.type('function');
+    ONE.equals.should.have.type('function');
   });
 
   it('should extend linear arbitrary precision', function() {
     ONE.pow.should.have.type('function');
-    ONE.equals.should.have.type('function');
+    ONE.sqrt.should.have.type('function');
   });
 });

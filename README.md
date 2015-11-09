@@ -41,6 +41,7 @@ new Decimal('0.6').times(new Decimal('3')).valueOf(); // => 0.6 * 3
 new Decimal('0.3').div(new Decimal('0.2')).valueOf(); // => 0.3 / 0.2
 
 new Decimal('2').pow(new Decimal('3')).valueOf(); // => 8
+new Decimal('9').sqrt().valueOf(); // => 3
 
 new Decimal('2').equals(new Decimal('2')); // => true
 new Decimal('2').equals(new Decimal('3')); // => false
