@@ -15,6 +15,7 @@ describe('linear operations with floating', function() {
     ONE.minus.should.have.type('function');
     ONE.times.should.have.type('function');
     ONE.div.should.have.type('function');
+    ONE.mod.should.have.type('function');
     ONE.equals.should.have.type('function');
   });
 
