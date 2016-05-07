@@ -45,6 +45,9 @@ new Decimal('9').sqrt().valueOf(); // => 3
 
 new Decimal('2').equals(new Decimal('2')); // => true
 new Decimal('2').equals(new Decimal('3')); // => false
+
+new Decimal('2').lt(new Decimal('3')); // => true (other: lte, gt, gte)
+new Decimal('2').cmp(new Decimal('3')); // => -1
 ```
 
 ### toString, valueOf and toJSON
