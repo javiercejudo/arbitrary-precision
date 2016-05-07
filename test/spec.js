@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('should');
+var should = require('should');
 
 var adapter = require('floating-adapter');
 var Decimal = require('../src/arbitrary-precision')(adapter);
@@ -11,16 +11,21 @@ describe('linear operations with floating', function() {
   var ONE = new Decimal('1');
 
   it('should have all linear arbitrary precision methods', function() {
-    ONE.plus.should.have.type('function');
-    ONE.minus.should.have.type('function');
-    ONE.times.should.have.type('function');
-    ONE.div.should.have.type('function');
-    ONE.mod.should.have.type('function');
-    ONE.equals.should.have.type('function');
+    should(ONE.plus).have.type('function');
+    should(ONE.minus).have.type('function');
+    should(ONE.times).have.type('function');
+    should(ONE.div).have.type('function');
+    should(ONE.mod).have.type('function');
+    should(ONE.equals).have.type('function');
   });
 
   it('should extend linear arbitrary precision', function() {
-    ONE.pow.should.have.type('function');
-    ONE.sqrt.should.have.type('function');
+    should(ONE.pow).have.type('function');
+    should(ONE.sqrt).have.type('function');
+    should(ONE.lt).have.type('function');
+    should(ONE.lte).have.type('function');
+    should(ONE.gt).have.type('function');
+    should(ONE.gte).have.type('function');
+    should(ONE.cmp).have.type('function');
   });
 });
