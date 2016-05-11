@@ -16,6 +16,7 @@ describe('linear operations with floating', function() {
     should(ONE.times).have.type('function');
     should(ONE.div).have.type('function');
     should(ONE.mod).have.type('function');
+    should(ONE.abs).have.type('function');
     should(ONE.equals).have.type('function');
 
     should(ONE.lt).have.type('function');
